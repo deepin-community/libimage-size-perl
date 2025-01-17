@@ -1,16 +1,14 @@
 Source: libimage-size-perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Uploaders: gregor herrmann <gregoa@debian.org>,
-           Ryan Niebur <ryan@debian.org>,
-           Jonathan Yu <jawnsy@cpan.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
 Section: perl
 Testsuite: autopkgtest-pkg-perl
 Priority: optional
-Build-Depends: debhelper (>= 8)
+Build-Depends: debhelper-compat (= 13)
 Build-Depends-Indep: perl
 Standards-Version: 3.9.6
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libimage-size-perl.git
-Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libimage-size-perl.git
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libimage-size-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libimage-size-perl.git
 Homepage: https://metacpan.org/release/Image-Size
 
 Package: libimage-size-perl
@@ -18,6 +16,7 @@ Architecture: all
 Depends: ${perl:Depends},
          ${misc:Depends}
 Suggests: libimage-magick-perl
+Multi-Arch: foreign
 Description: module for determining image sizes in several common formats
  Image::Size is a Perl module capable of determining image sizes from several
  common formats. It handles XPM, XBM, GIF, JPEG, PNG, MNG, the PPM family of
