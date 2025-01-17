@@ -1,3 +1,38 @@
+libimage-size-perl (3.300-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libimage-size-perl: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 14 Oct 2022 00:28:50 +0100
+
+libimage-size-perl (3.300-2) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * Change bugtracker URL(s) to HTTPS.
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * debian/upstream/metadata: change GitHub/CPAN URL(s) to HTTPS.
+  * Remove Jonathan Yu from Uploaders. Thanks for your work!
+  * Remove Ryan Niebur from Uploaders. Thanks for your work!
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from deprecated 8 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Repository, Repository-Browse.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 15 Jun 2022 00:40:23 +0100
+
 libimage-size-perl (3.300-1.1) unstable; urgency=medium
 
   * Non maintainer upload by the Reproducible Builds team.
@@ -295,5 +330,3 @@ image-size (2.7-1) unstable; urgency=low
   * Initial release.
 
  -- Ben Gertzfield <che@debian.org>  Fri, 23 Oct 1998 12:56:29 -0700
-
-

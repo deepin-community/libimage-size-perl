@@ -1,6 +1,5 @@
 ---
 Archive: CPAN
-Bug-Database: http://rt.cpan.org/Public/Dist/Display.html?Name=Image-Size
-Contact: Randy J. Ray <rjray@blackperl.com>
-Name: Image-Size
-Repository: http://github.com/rjray/image-size
+Bug-Database: https://rt.cpan.org/Public/Dist/Display.html?Name=Image-Size
+Repository: https://github.com/rjray/image-size.git
+Repository-Browse: https://github.com/rjray/image-size
